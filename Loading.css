@@ -1,0 +1,60 @@
+*{
+    text-decoration: none;
+}
+body {
+    background-color: #fff;
+    font-family: arial;
+}
+
+.loader {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banteng,
+.kntl {
+    width: 80px;
+    animation: mantul 1s infinite;
+}
+.bayangan {
+    position: absolute;
+    width: 80px;
+    background: rgba(0, 0, 0, .1);
+    margin-top: 45px;
+    border-radius: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, .0);
+    animation: pudar 1s infinite;
+    z-index: -1;
+}
+.text-jalan {
+    position: absolute;
+    margin-top: 100px;
+}
+.text-jalan,
+h1,
+.typewrite {
+    color: black;
+}
+
+
+
+@keyframes mantul {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+}
+
+@keyframes pudar {
+    0%, 20%, 50%, 80%, 100% {
+        width: 80px;
+    }
+    40% {
+        width: 30px;
+    }
+    60% {
+        width: 50px;
+    }
+}

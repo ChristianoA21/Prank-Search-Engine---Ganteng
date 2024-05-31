@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../../assets/bg.jpg");
+    background-size: cover;
+
+}
+.logo {
+    width: 70px;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+.video video {
+    display: block;
+    margin: 30px auto 0 auto;
+}
